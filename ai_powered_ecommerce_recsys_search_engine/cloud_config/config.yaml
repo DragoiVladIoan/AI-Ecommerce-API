@@ -1,0 +1,21 @@
+connection:
+    apikey: "irt-qbkc70QpCeD0gvTRQKqlbKmwcLjBhjrVfzeyWwxz"
+    access_key_id: "522a9ae9c9c04af09d4dd3f3159d7ad4"
+    secret_access_key: "a829f6a5daa7c2e5063f2ec7fe3baf3d614870828b2b2032"
+    endpoint: "https://s3.eu.cloud-object-storage.appdomain.cloud"
+    iam_apikey_description: "Auto-generated for key 522a9ae9-c9c0-4af0-9d4d-d3f3159d7ad4"
+    iam_apikey_name: "Service credentials-1"
+    iam_role_crn: "crn:v1:bluemix:public:iam::::serviceRole:Manager"
+    iam_serviceid_crn: "crn:v1:bluemix:public:iam-identity::a/3dda9dce505c4b329584348d8c2413e3::serviceid:ServiceId-0d229cf0-b4b6-4367-85f1-270e083e3382"
+    resource_instance_id: "crn:v1:bluemix:public:cloud-object-storage:global:a/3dda9dce505c4b329584348d8c2413e3:40c7b2d5-45d3-4771-a29d-4886754abe49::"
+location:
+    bucket: "testproject-donotdelete-pr-fgkpq0uhk6c0hd"
+    files:
+      walmart_data: "walmart_full_data.csv"
+      product_transactions_mock: "product_transactions_mock_data.csv"
+      user_recs: "user_cf_recommendations.csv"
+      item_recs_cosine: "item_recommendations_cosine.csv"
+      item_recs_pearson: "item_recommendations_pearson.csv"
+      binary_relevance: "binary_relevance.joblib"
+      classifier_chain: "classifier_chain.joblib"
+      label_powerset: "label_powerset.joblib"
